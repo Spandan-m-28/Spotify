@@ -83,22 +83,32 @@ main {
 .your_lib_container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .lib_svg {
+  padding-top: 10px;
   width: 25px;
   padding-left: 15px;
 }
 
+.lib_img_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .plus_svg {
-  padding-top: 15px;
+  padding-top: 10x;
   width: 25px;
+  padding-right: 10px;
 }
 
 .your_lib_text {
+  padding-top: 10px;
   padding-left: 20px;
   font-size: 17.3px;
-  padding-right: 180px;
 }
 
 .plus_svg {
